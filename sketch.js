@@ -110,7 +110,7 @@ function bananas()
       banana.velocityX=-5;
       banana.lifetime=120;
       banana.addImage("food",bananaImage)
-      banana.scale=0.1;
+      banana.scale=0.05;
       banana.depth=monkey.depth-1;
       FoodGroup.add(banana);
     }
